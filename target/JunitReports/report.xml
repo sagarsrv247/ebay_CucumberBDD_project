@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="77.011" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Ebay Functionality Check." name="Access a Product via category after applying multiple filters" time="59.85">
+<system-out><![CDATA[
+Given user is on ebay website page..........................................passed
+When user navigates to Search...............................................passed
+And user clicks on Cell Phones & Smartphones................................passed
+And user clicks on All Filters..............................................passed
+And user add three filters - Condition, Price and Item location.............passed
+Then verify the filter tags are applied.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Functionality Check." name="Access a Product via Search" time="16.988">
+<system-out><![CDATA[
+Given user is on ebay website...............................................passed
+When user enters Macbook in Search Bar......................................passed
+And user changes the category and click on Search...........................passed
+And user verifies that the page is loaded completely........................passed
+Then user first result name matches with the search string..................passed
+]]></system-out>
+</testcase>
+</testsuite>
